@@ -22,7 +22,6 @@ function App() {
 					count is what again? {count}
 				</button>
 				<button>
-					{" "}
 					Look at the spinning react logo, does it switch??? or jump?
 				</button>
 				<p>
