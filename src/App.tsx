@@ -1,37 +1,26 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<>
-			<div>
-				<a href="https://vite.dev" target="_blank">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-				</a>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-			</div>
-			<h1>Vite + React</h1>
-			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>
-					count is what again? {count}
-				</button>
-				<button>
-					Look at the spinning react logo, does it switch??? or jump?
-				</button>
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
-			</div>
-			<p className="read-the-docs">
-				Click on the Vite and React logos to learn more
-			</p>
-		</>
+		<div>
+			<article>
+				<h1>
+					This is an interesting Text about how to do testing with vitesting
+				</h1>
+				<p>What should i do to start beyond installing the package?</p>
+				<ul>
+					<li>Creat a __test__ folder outside of src</li>
+					<li>
+						Take the file name of an existing file and add .test appendage
+					</li>
+				</ul>
+			</article>
+
+			<button type="button">Click me for free donuts</button>
+		</div>
 	);
 }
 
